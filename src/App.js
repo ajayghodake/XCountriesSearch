@@ -16,7 +16,12 @@ function App() {
   // Fetching all data 
   useEffect(() => {
     axios
-      .get("https://restcountries.com/v3.1/all")
+      .get("https://restcountries.com/v3.1/all", {
+        headers: {
+          'Upgrade-Insecure-Requests': '1',
+          'Accept': 'application/json',
+        }
+      })
       .then((res) => {
         setCountriesData(res.data);
         setFilterData(res.data);
