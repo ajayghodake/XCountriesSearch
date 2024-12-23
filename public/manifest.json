@@ -1,9 +1,9 @@
 {
-  "short_name": "Search country flags",
-  "name": "search flags of all the countries you want",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
-      "src": "flagIcon.png",
+      "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
